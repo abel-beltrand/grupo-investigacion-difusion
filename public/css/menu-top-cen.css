@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.navbar{ margin-bottom:0px;border-radius: 0;}
+
+
+
+@media (min-width:768px){.container-cent{width:auto; padding-right:1px; padding-left:1px; margin-right:auto; margin-left:auto;}}
+@media (min-width:885px){.container-cent{width:auto; padding-right:0px; padding-left:0px; margin-right:auto; margin-left:auto;}}
+@media (min-width:992px){.container-cent{width:1000px; padding-right:15px; padding-left:15px; margin-right:auto; margin-left:auto;}}
+@media (min-width:1200px){.container-cent{width:1000px; padding-right:15px; padding-left:15px; margin-right:auto; margin-left:auto;}}
+
+/* Ocultar menu superior - lado izq MODD */
+/*@media (min-width:768px) and (max-width:1119px){.hidden-sm-plus{display:none!important}}*/
+@media (min-width:768px) and (max-width:1220px){.hidden-sm-plus{display:none!important}}
+
+@media (min-width:768px) and (max-width:1220px){.visible-sm-plus{display: block!important}}
+
+
+/* FIX mostrar botones en XS MODD By alienmau */
+/*@media (min-width:200px) and (max-width:767px){.hidden-xs-plus{display:none!important}}
+@media (min-width:200px) and (max-width:767px){.visible-xs-plus{display: block!important}}
+@media (min-width:200px) and (max-width:767px){ .navbar-collapse.collapse.fondomenutop{ display:block !important; height:auto !important; padding-bottom:0; overflow:visible !important;}}*/
+
+
+/*@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}*/
+
+/* MENU Top */
+.navbar-uaeh-top{background-color:#EAE3D8;border-color:#EAE3D8}.navbar-uaeh-top .navbar-brand{color:#FCFCFC}.navbar-uaeh-top .navbar-brand:focus,.navbar-uaeh-top .navbar-brand:hover{color:#fff;background-color:#800101}.navbar-uaeh-top .navbar-text{color:#FCFCFC}.navbar-uaeh-top .navbar-nav>li>a{color:#FCFCFC}.navbar-uaeh-top .navbar-nav>li>a:focus,.navbar-uaeh-top .navbar-nav>li>a:hover{color:#fff;background-color:#800101; }.navbar-uaeh-top .navbar-nav>.active>a,.navbar-uaeh-top .navbar-nav>.active>a:focus,.navbar-uaeh-top .navbar-nav>.active>a:hover{color:#fff;background-color:#610101}.navbar-uaeh-top .navbar-nav>.disabled>a,.navbar-uaeh-top .navbar-nav>.disabled>a:focus,.navbar-uaeh-top .navbar-nav>.disabled>a:hover{color:#444;background-color:#800101}.navbar-uaeh-top .navbar-toggle{border-color:#333}.navbar-uaeh-top .navbar-toggle:focus,.navbar-uaeh-top .navbar-toggle:hover{background-color:#333}.navbar-uaeh-top .navbar-toggle .icon-bar{background-color:#fff}.navbar-uaeh-top .navbar-collapse,.navbar-uaeh-top .navbar-form{border-color:#800101}.navbar-uaeh-top .navbar-nav>.open>a,.navbar-uaeh-top .navbar-nav>.open>a:focus,.navbar-uaeh-top .navbar-nav>.open>a:hover{color:#fff;background-color:#610101}@media (max-width:767px){.navbar-uaeh-top .navbar-nav .open .dropdown-menu>.dropdown-header{border-color:#610101}.navbar-uaeh-top .navbar-nav .open .dropdown-menu .divider{background-color:#610101}.navbar-uaeh-top .navbar-nav .open .dropdown-menu>li>a{color:#FCFCFC}.navbar-uaeh-top .navbar-nav .open .dropdown-menu>li>a:focus,.navbar-uaeh-top .navbar-nav .open .dropdown-menu>li>a:hover{color:#fff;background-color:#800101}.navbar-uaeh-top .navbar-nav .open .dropdown-menu>.active>a,.navbar-uaeh-top .navbar-nav .open .dropdown-menu>.active>a:focus,.navbar-uaeh-top .navbar-nav .open .dropdown-menu>.active>a:hover{color:#fff;background-color:#610101}.navbar-uaeh-top .navbar-nav .open .dropdown-menu>.disabled>a,.navbar-uaeh-top .navbar-nav .open .dropdown-menu>.disabled>a:focus,.navbar-uaeh-top .navbar-nav .open .dropdown-menu>.disabled>a:hover{color:#444;background-color:#800101}}.navbar-uaeh-top .navbar-link{color:#FCFCFC}.navbar-uaeh-top .navbar-link:hover{color:#fff}.navbar-uaeh-top .btn-link{color:#FCFCFC}.navbar-uaeh-top .btn-link:focus,.navbar-uaeh-top .btn-link:hover{color:#fff}.navbar-uaeh-top .btn-link[disabled]:focus,.navbar-uaeh-top .btn-link[disabled]:hover,fieldset[disabled] .navbar-uaeh-top .btn-link:focus,fieldset[disabled] .navbar-uaeh-top .btn-link:hover{color:#444}
+
+
+
+/*Custom Dropdown menu*/
+.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:160px;padding:5px 0;margin:2px 0 0;font-size:14px;text-align:left;list-style:none;background-color:#800101;-webkit-background-clip:padding-box;background-clip:padding-box;border:1px solid #ccc;border:1px solid rgba(0,0,0,.15);border-radius:4px;-webkit-box-shadow:0 6px 12px rgba(0,0,0,.175);box-shadow:0 6px 12px rgba(0,0,0,.175)}.dropdown-menu .pull-right{right:0;left:auto}.dropdown-menu .divider{height:1px;margin:9px 0;overflow:hidden;background-color:#e5e5e5}.dropdown-menu>li>a{display:block;padding:3px 20px;clear:both;font-weight:400;line-height:1.42857143;color:#EAE3D8;white-space:nowrap}.dropdown-menu>li>a:focus,.dropdown-menu>li>a:hover{color:#EAE3D8;text-decoration:none;background-color:#800101}.dropdown-menu>.active>a,.dropdown-menu>.active>a:focus,.dropdown-menu>.active>a:hover{color:#fff;text-decoration:none;background-color:#fff;outline:0}.dropdown-menu>.disabled>a,.dropdown-menu>.disabled>a:focus,.dropdown-menu>.disabled>a:hover{color:#777}
+
+
+
+
+
+
+
+/* MENU central */    /*  9B9B9B*/
+
+.navbar-uaeh-centro{background-color:#706A5C;border-color:#706A5C; font-family: 'Gentium Book Basic', serif; font-size:15px}.navbar-uaeh-centro .navbar-brand{color:#FCFCFC}.navbar-uaeh-centro .navbar-brand:focus,.navbar-uaeh-centro .navbar-brand:hover{color:#fff;background-color:#9C9687}.navbar-uaeh-centro .navbar-text{color:#FCFCFC}.navbar-uaeh-centro .navbar-nav>li>a{color:#FCFCFC}.navbar-uaeh-centro .navbar-nav>li>a:focus,.navbar-uaeh-centro .navbar-nav>li>a:hover{color:#fff;background-color:#9C9687}.navbar-uaeh-centro .navbar-nav>.active>a,.navbar-uaeh-centro .navbar-nav>.active>a:focus,.navbar-uaeh-centro .navbar-nav>.active>a:hover{color:#fff;background-color:#9C9687}.navbar-uaeh-centro .navbar-nav>.disabled>a,.navbar-uaeh-centro .navbar-nav>.disabled>a:focus,.navbar-uaeh-centro .navbar-nav>.disabled>a:hover{color:#444;background-color:#9C9687}.navbar-uaeh-centro .navbar-toggle{border-color:#333}.navbar-uaeh-centro .navbar-toggle:focus,.navbar-uaeh-centro .navbar-toggle:hover{background-color:#333}.navbar-uaeh-centro .navbar-toggle .icon-bar{background-color:#fff}.navbar-uaeh-centro .navbar-collapse,.navbar-uaeh-centro .navbar-form{border-color:#101010}.navbar-uaeh-centro .navbar-nav>.open>a,.navbar-uaeh-centro .navbar-nav>.open>a:focus,.navbar-uaeh-centro .navbar-nav>.open>a:hover{color:#fff;background-color:#9C9687}@media (max-width:767px){.navbar-uaeh-centro .navbar-nav .open .dropdown-menu>.dropdown-header{border-color:#9C9687}.navbar-uaeh-centro .navbar-nav .open .dropdown-menu .divider{background-color:#9C9687}.navbar-uaeh-centro .navbar-nav .open .dropdown-menu>li>a{color:#FCFCFC;}.navbar-uaeh-centro .navbar-nav .open .dropdown-menu>li>a:focus,.navbar-uaeh-centro .navbar-nav .open .dropdown-menu>li>a:hover{color:#fff;background-color:#9C9687}.navbar-uaeh-centro .navbar-nav .open .dropdown-menu>.active>a,.navbar-uaeh-centro .navbar-nav .open .dropdown-menu>.active>a:focus,.navbar-uaeh-centro .navbar-nav .open .dropdown-menu>.active>a:hover{color:#fff;background-color:#9C9687}.navbar-uaeh-centro .navbar-nav .open .dropdown-menu>.disabled>a,.navbar-uaeh-centro .navbar-nav .open .dropdown-menu>.disabled>a:focus,.navbar-uaeh-centro .navbar-nav .open .dropdown-menu>.disabled>a:hover{color:#444;background-color:#9C9687}}.navbar-uaeh-centro .navbar-link{color:#FCFCFC}.navbar-uaeh-centro .navbar-link:hover{color:#fff}.navbar-uaeh-centro .btn-link{color:#FCFCFC}.navbar-uaeh-centro .btn-link:focus,.navbar-uaeh-centro .btn-link:hover{color:#fff}.navbar-uaeh-centro .btn-link[disabled]:focus,.navbar-uaeh-centro .btn-link[disabled]:hover,fieldset[disabled] .navbar-uaeh-centro .btn-link:focus,fieldset[disabled] .navbar-uaeh-centro .btn-link:hover{color:#444}p.central-menu{font-family: 'Lato', sans-serif;} .borde-lista-central{margin-right: -1px;
+  border-left: 1px solid #999999;font-family: 'Lato', sans-serif; list-style:none}  
